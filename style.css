@@ -1,0 +1,61 @@
+style{
+box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: white;
+}
+div{
+	width:60%;
+	margin: 0 auto;
+}
+h1{
+	background-color: lightgrey ;
+	padding: 35px;
+	font-size: 40px;
+	text-align: center;
+	color: dodgerblue;
+}
+.NA{
+	background-color: lightgrey;
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	color:dodgerblue;
+}
+header {
+  background-color: lightgrey;
+  padding: 40px;
+  text-align: center;
+  font-size: 45px;
+  color: dodgerblue;
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+nav {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2; 
+  background: lightgrey;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+footer {
+  background-color: lightgrey;
+  padding: 40px;
+  font-size: 30px;
+  text-align: center;
+  color: dodgerblue;
+}
